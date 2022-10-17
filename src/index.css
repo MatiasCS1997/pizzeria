@@ -1,13 +1,90 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=360);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.active {
+  color: rgb(233, 176, 19);
+}
+
+.no-active {
+  color: rgb(233, 176, 19);
+  
+}
+
+.result {
+  color: rgb(233, 176, 19);
+}
+
+.card-box {
+  width: 400px;
+  color: rgb(233, 176, 19);
+}
+
+.buttonplus {
+  display: flex;
+}
+
+nav {
+  background-image: url(https://st4.depositphotos.com/3316741/22997/i/600/depositphotos_229976142-stock-photo-pizza-with-tomatoes-mozzarella-cheese.jpg);
+  padding: 2px;
+  font-size: 1.5rem;
+}
+
+
+.container-images {
+  display: flex;
+  justify-content: center;
+  color: rgb(233, 176, 19);
+  flex-direction: column;
+  width: 50%;
+}
+h1 {
+  color: rgb(233, 176, 19);
+}
+.image-desc {
+  font-size: medium;
+  color: rgb(233, 176, 19);
+  padding-left: 18px;
+  width: 50%;
+}
+.containerbox {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.ingredient-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.count-pizza {
+  display: flex;
+  text-align: center;
+  color: rgb(233, 176, 19);
+  flex-direction: column;
+  
+}
+.boxCart {
+  display: flex;
+  text-align: center;
+  color: rgb(233, 176, 19);
+  flex-direction: column;
+}
+.btn3 {
+  background-color: rgb(45, 30, 210);
+  color: rgb(233, 176, 19);
+ 
+}
+.buttonplus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonmenus {
+  background-color: rgb(45, 30, 210);
+  width: 80px;
+  height: 50px;
+  color: rgb(233, 176, 19);
 }
